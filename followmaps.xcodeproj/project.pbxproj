@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		405E5CB097F5086156023535 /* Pods_followmapsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ED0B64DB022401EF809AF3A /* Pods_followmapsUITests.framework */; };
 		C016A6C0201FB22600AFA240 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C016A6BF201FB22600AFA240 /* AppDelegate.swift */; };
 		C016A6C2201FB22600AFA240 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C016A6C1201FB22600AFA240 /* ViewController.swift */; };
 		C016A6C5201FB22700AFA240 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C016A6C3201FB22700AFA240 /* Main.storyboard */; };
 		C016A6C7201FB22700AFA240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C016A6C6201FB22700AFA240 /* Assets.xcassets */; };
 		C016A6CA201FB22700AFA240 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C016A6C8201FB22700AFA240 /* LaunchScreen.storyboard */; };
 		C016A6D5201FB22B00AFA240 /* followmapsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C016A6D4201FB22B00AFA240 /* followmapsUITests.swift */; };
+		C016A6E02020012500AFA240 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C016A6DF2020012500AFA240 /* PlacesViewController.swift */; };
+		F8400482A60B7318C7649499 /* Pods_followmaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF538B1778C4146D7493AE4 /* Pods_followmaps.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		037E50CB69B28172AEB4A50F /* Pods-followmaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-followmaps.release.xcconfig"; path = "Pods/Target Support Files/Pods-followmaps/Pods-followmaps.release.xcconfig"; sourceTree = "<group>"; };
+		0B08A90ED4EDFFB77F9FF85E /* Pods-followmaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-followmaps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-followmaps/Pods-followmaps.debug.xcconfig"; sourceTree = "<group>"; };
+		3EDB720DC5F84409A820F2C2 /* Pods-followmapsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-followmapsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-followmapsUITests/Pods-followmapsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9ED0B64DB022401EF809AF3A /* Pods_followmapsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_followmapsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C016A6BC201FB22600AFA240 /* followmaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = followmaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C016A6BF201FB22600AFA240 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C016A6C1201FB22600AFA240 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +43,9 @@
 		C016A6D0201FB22B00AFA240 /* followmapsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = followmapsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C016A6D4201FB22B00AFA240 /* followmapsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = followmapsUITests.swift; sourceTree = "<group>"; };
 		C016A6D6201FB22B00AFA240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C016A6DF2020012500AFA240 /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		CBD7BDAF2C6914E85A8C7A63 /* Pods-followmapsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-followmapsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-followmapsUITests/Pods-followmapsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DCF538B1778C4146D7493AE4 /* Pods_followmaps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_followmaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8400482A60B7318C7649499 /* Pods_followmaps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +61,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				405E5CB097F5086156023535 /* Pods_followmapsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B833FD170C2B6BC9C099F8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCF538B1778C4146D7493AE4 /* Pods_followmaps.framework */,
+				9ED0B64DB022401EF809AF3A /* Pods_followmapsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C016A6B3201FB22500AFA240 = {
 			isa = PBXGroup;
 			children = (
 				C016A6BE201FB22600AFA240 /* followmaps */,
 				C016A6D3201FB22B00AFA240 /* followmapsUITests */,
 				C016A6BD201FB22600AFA240 /* Products */,
+				DD17FA9737EBD1DCE4CF6DA8 /* Pods */,
+				7B833FD170C2B6BC9C099F8D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +102,7 @@
 			children = (
 				C016A6BF201FB22600AFA240 /* AppDelegate.swift */,
 				C016A6C1201FB22600AFA240 /* ViewController.swift */,
+				C016A6DF2020012500AFA240 /* PlacesViewController.swift */,
 				C016A6C3201FB22700AFA240 /* Main.storyboard */,
 				C016A6C6201FB22700AFA240 /* Assets.xcassets */,
 				C016A6C8201FB22700AFA240 /* LaunchScreen.storyboard */,
@@ -96,6 +120,17 @@
 			path = followmapsUITests;
 			sourceTree = "<group>";
 		};
+		DD17FA9737EBD1DCE4CF6DA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B08A90ED4EDFFB77F9FF85E /* Pods-followmaps.debug.xcconfig */,
+				037E50CB69B28172AEB4A50F /* Pods-followmaps.release.xcconfig */,
+				CBD7BDAF2C6914E85A8C7A63 /* Pods-followmapsUITests.debug.xcconfig */,
+				3EDB720DC5F84409A820F2C2 /* Pods-followmapsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +138,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C016A6D9201FB22B00AFA240 /* Build configuration list for PBXNativeTarget "followmaps" */;
 			buildPhases = (
+				C10576F5E0C75C158375E0A6 /* [CP] Check Pods Manifest.lock */,
 				C016A6B8201FB22600AFA240 /* Sources */,
 				C016A6B9201FB22600AFA240 /* Frameworks */,
 				C016A6BA201FB22600AFA240 /* Resources */,
+				8DBF32D3D0F446857F415423 /* [CP] Embed Pods Frameworks */,
+				E1E622AACA94A59E4CCDB9D0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C016A6DC201FB22B00AFA240 /* Build configuration list for PBXNativeTarget "followmapsUITests" */;
 			buildPhases = (
+				F78C1F8FE1607EC32A517F36 /* [CP] Check Pods Manifest.lock */,
 				C016A6CC201FB22B00AFA240 /* Sources */,
 				C016A6CD201FB22B00AFA240 /* Frameworks */,
 				C016A6CE201FB22B00AFA240 /* Resources */,
+				C7DB91FC243066F257A0A37A /* [CP] Embed Pods Frameworks */,
+				3ECAB5B94941F90D387FA0A6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,11 +235,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3ECAB5B94941F90D387FA0A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-followmapsUITests/Pods-followmapsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DBF32D3D0F446857F415423 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-followmaps/Pods-followmaps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C10576F5E0C75C158375E0A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-followmaps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7DB91FC243066F257A0A37A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-followmapsUITests/Pods-followmapsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1E622AACA94A59E4CCDB9D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-followmaps/Pods-followmaps-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-followmaps/Pods-followmaps-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F78C1F8FE1607EC32A517F36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-followmapsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C016A6B8201FB22600AFA240 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C016A6E02020012500AFA240 /* PlacesViewController.swift in Sources */,
 				C016A6C2201FB22600AFA240 /* ViewController.swift in Sources */,
 				C016A6C0201FB22600AFA240 /* AppDelegate.swift in Sources */,
 			);
@@ -351,6 +496,7 @@
 		};
 		C016A6DA201FB22B00AFA240 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B08A90ED4EDFFB77F9FF85E /* Pods-followmaps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,6 +512,7 @@
 		};
 		C016A6DB201FB22B00AFA240 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 037E50CB69B28172AEB4A50F /* Pods-followmaps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,6 +528,7 @@
 		};
 		C016A6DD201FB22B00AFA240 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBD7BDAF2C6914E85A8C7A63 /* Pods-followmapsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -397,6 +545,7 @@
 		};
 		C016A6DE201FB22B00AFA240 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EDB720DC5F84409A820F2C2 /* Pods-followmapsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

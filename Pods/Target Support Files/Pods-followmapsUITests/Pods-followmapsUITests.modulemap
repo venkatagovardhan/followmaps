@@ -1,0 +1,6 @@
+framework module Pods_followmapsUITests {
+  umbrella header "Pods-followmapsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
